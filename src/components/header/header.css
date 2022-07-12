@@ -1,0 +1,21 @@
+header {
+  background: white;
+  height: 15vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.header-container > img {
+  width: 100px;
+  height: 100px;
+  object-fit: fill;
+}
